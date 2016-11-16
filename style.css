@@ -38,11 +38,8 @@ ul li:hover {
   font-size: 5em;
   color: white;
 
-/*hint: flex*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+/* flex*/
+  
 }
 
 
@@ -62,11 +59,11 @@ ul li:hover {
   display: flex;
   flex-direction: column;
   text-align: center;
-/*hint: position absolute and translate*/
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+/* position absolute and translate*/
+
+
+
+
 }
 
 .hero-three {
@@ -76,13 +73,9 @@ ul li:hover {
   color: #444
 }
 .hero-three h1 {
-/*hint: position absolute and margin*/
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 4em;
-  height: 1em;
+/* position absolute and margin*/
+
+
+
+
 }
