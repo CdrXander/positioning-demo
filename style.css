@@ -1,0 +1,88 @@
+
+header {
+  position: fixed;
+  width: 100vw;
+  color: #ddd;
+  padding: 15px;
+}
+i {
+  margin-right: .5rem;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-right: 10px;
+}
+ul li {
+  margin-right: 2em;
+}
+ul li:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #555;
+  color: #555;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+/*ONE*/
+.hero-one h1 {
+  border: 3px solid
+}
+.hero-one {
+  background-image: url('https://unsplash.it/1280/780/?random');
+  font-size: 5em;
+  color: white;
+
+/*hint: flex*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/*TWO*/
+.hero-two {
+  background-image: url('https://unsplash.it/g/1280/780/?random');
+  position: relative;
+  color: white;
+}
+.hero-two h1 {
+  font-size: 5em
+}
+.hero-two h2 {
+  font-size: 3em
+}
+.hero-two-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+/*hint: position absolute and translate*/
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-three {
+  background-image: url('https://unsplash.it/1280/780/?random/g');
+  position: relative;
+  font-size: 4em;
+  color: #444
+}
+.hero-three h1 {
+/*hint: position absolute and margin*/
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 4em;
+  height: 1em;
+}
